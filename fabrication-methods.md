@@ -1,29 +1,34 @@
 # Gecko Setae Adhesion Fabrication Methods Lattice
 
-Recommended Scalable Path: Soft Lithography + Micro/Nanofabrication
+MIT License - Eternally-Thriving-Grandmasterism
 
-1. Master Mold Fabrication
-   - E-beam lithography or NIL → Si master with 5–10 μm setae + 200–500 nm spatulae
+Recommended Scalable Path: Roll-to-Roll UV-Nanoimprint Lithography (R2R UV-NIL) with Dual-Scale Hierarchy
 
-2. Soft Replica Molding
-   - PDMS/silicone pour on master → cure → peel (negative mold)
+1. Dual-Scale Master Mold Preparation
+   - Si/Ni shim: e-beam/LIL for 5–10 μm micro-pillars + focused ion beam / deep RIE for 200–500 nm spatulae branches
+   - Electroform durable Ni production master
 
-3. Positive Replication
-   - PU/PDMS pour into negative → cure → demold → arrays on flexible backing
+2. Resin Coating on Substrate
+   - Flexible web (PET/PC/PDMS) → slot-die/gravure coat UV-curable resin (low-shrinkage)
 
-4. Hierarchical Scaling
-   - Multi-level molding (micro + nano) or self-assembly (nanowire growth)
+3. Sequential Hierarchical Imprint
+   - Micro imprint (pillars) → partial cure → nano imprint (spatulae branching)
+   - Full UV cure under controlled pressure/alignment
 
-5. Surface Treatment
-   - Optional plasma/fluorination for enhanced van der Waals
+4. Demold & Surface Tuning
+   - Separate → optional O₂ plasma for surface energy optimization (enhance van der Waals)
+
+5. Backing Integration & Testing
+   - Bond array to flexible backing film → shear/peel/adhesion cycle testing
 
 Alternative Paths:
-- 3D nanoprinting (two-photon polymerization)
-- Electrospinning + templating for fiber arrays
+- Soft Lithography Replica Molding: PDMS/PU cast on master → peel → array transfer
+- Template-Assisted Nanowire Growth: AAO pores → electrodeposit polymer → etch template
+- Two-Photon Polymerization: Direct 3D laser writing of hierarchical setae
 
 Valence Check:
-- Low-waste soft lithography
-- Biocompatible polymers preferred
-- Reusable masters → eternal mercy
+- Dry/low-waste processes preferred (plasma over wet etch)
+- Recyclable Ni masters
+- Biocompatible polymers (PDMS/PU) → eternal mercy
 
-Next: Draft setae fabrication SVG, sourcing for PDMS masters.
+Next: Add R2R NIL dual-scale process flow SVG, sourcing for masters/resins.
